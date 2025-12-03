@@ -30,7 +30,7 @@ if ($data && isset($data['entry'][0]['messaging'][0])) {
         $user_info = json_decode(file_get_contents("https://graph.facebook.com/$sender_id?fields=first_name,last_name&access_token=$access_token"), true);
         
         $name = isset($user_info['first_name']) ? $user_info['first_name'] . " " . $user_info['last_name'] : "Friend";
-        $reply = "Hello $name! Your full name is: $name";
+        $reply = "Hello $name! ";
 
         // Send Reply
         $options = [
