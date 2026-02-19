@@ -1,7 +1,7 @@
 <?php
 // CONFIGURATION
 // 1. REGENERATE your token in Facebook Developers and paste the NEW one here.
-$access_token = 'REPLACE_THIS_WITH_YOUR_NEW_ACCESS_TOKEN'; 
+$access_token = 'EAAbrMgvNBJABQD71Kpe2HRZCvXmqrzoYKSPM4GelWIBbnZByejCNmqfBFYDqjILtHd2JO91YcZAelUwOcXFsjLgE0k7WUY2jx6SZCAyglRT43DYumcFOLxIZCrtTKeEUzj5If8tINqmi3HVBP0BdP0GwpaDuY4nuQQ75x2ZChyZBo43GsJiVqVXAKxr5x1KU4aIlndZBeQZDZD'; 
 $verify_token = 'Moz1304'; 
 
 // 1. WEBHOOK VERIFICATION
